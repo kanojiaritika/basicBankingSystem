@@ -1,1 +1,4 @@
-Basic Banking System is a website which helps transfer money between customers and also allows you to view transaction history.
+Basic Banking System
+Technologies Used: HTML, CSS, PHP, MySQL.
+Basic Banking Website is a website developed as the first task of the internship at The Sparks Foundation.
+This website has the functionalities of transferring money between multiple customers and viewing transaction history.
