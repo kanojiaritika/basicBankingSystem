@@ -1,0 +1,68 @@
+@import url("https://fonts.googleapis.com/css2?family=Cinzel&display=swap");
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Cinzel", serif;
+  background-image: linear-gradient(rgb(59, 0, 111), rgb(159, 104, 206));
+}
+
+header {
+  display: flex;
+  color: white;
+  margin-left: 100px;
+}
+nav ul {
+  float: right;
+  list-style: none;
+  margin: 35px 0px 0px 500px;
+}
+nav ul li {
+  display: inline-block;
+}
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  padding: 5px 18px 5px 18px;
+  font-size: 18px;
+}
+nav ul li a:hover {
+  background-color: rgba(54, 11, 244, 0.3);
+  border-radius: 20px;
+}
+.customer-head {
+  text-align: center;
+  color: white;
+  font-size: 35px;
+}
+
+.customer-table {
+  border: 1px solid black;
+  border-collapse: collapse;
+  margin: 0px 0px 200px 350px;
+}
+
+.customer-table tr,
+th,
+td {
+  border: 1px solid black;
+  padding: 12px 25px 12px 25px;
+}
+
+.customer-table .btn {
+  color: white;
+  padding: 10px 12px;
+  border: none;
+  background-color: rgb(59, 0, 111);
+  font-size: 18px;
+}
+.customer-table .btn:hover {
+  color: black;
+  background-color: #8800ff8a;
+  cursor: pointer;
+}
+tr:nth-child(even) {
+  background-color: #a2a2a2;
+}
+tr:nth-child(odd) {
+  background-color: #eaeaea;
+}
